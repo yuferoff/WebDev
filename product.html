@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <header class="header">
+        <div class="container header__content">
+            <div class="header__block">
+                <a href="#" class="logo"> <img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo_d">D</span> </a>
+                <form class="header__form" action="#">
+                    <div class="form__browse"> Browse </div>
+                    <input type="text" class="form__input" placeholder="Search for Item...">
+                    <button class="form__search"></button>
+                </form>
+            </div>
+            <div class="header__block"> <img class="header__cart" src="img/cart.svg" alt="cart"> <a href="#" class="button account">My Account </a> </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" class="menu__link">Home</a></li>
+            <li><a href="#" class="menu__link">Man</a></li>
+            <li><a href="#" class="menu__link">Women</a></li>
+            <li><a href="#" class="menu__link">Kids</a></li>
+            <li><a href="#" class="menu__link">Accoseriese</a></li>
+            <li><a href="#" class="menu__link">Featured</a></li>
+            <li><a href="#" class="menu__link">Deals </a></li>
+        </ul>
+    </nav>
+    <div class="navbar">
+        <div class="navbar__content container">
+            <div class="catalog_title">NEW ARRIVALS</div>
+            <div class="breadcrumbs">HOME / MEN / <span>NEW ARRIVALS</span></div>
+        </div>
+    </div>
+    <div class="catalog container">
+        <div class="sidebar">
+            <div class="cat active"> CATEGORY </div>
+            <ul>
+                <li>Accessories</li>
+                <li>Bags</li>
+                <li>Denim</li>
+                <li>Hoodies &amp; Sweatshirts</li>
+                <li>Jackets &amp; Coats</li>
+                <li>Pants</li>
+                <li>Polos</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Sweaters &amp; Knits</li>
+                <li>T-Shirts</li>
+                <li>Tanks</li>
+            </ul>
+            <div class="cat passive"> BRAND </div>
+            <div class="cat passive"> DESIGNER </div>
+        </div>
+        <div class="content">
+            <div class="filters">
+                <div>
+                    <h3>Trending now</h3> Bohemian | Floral | Lace
+                    <br> Floral | Lace | Bohemian </div>
+                <div>
+                    <h3>Size</h3>
+                    <input type="checkbox" name="size"> XXS
+                    <input type="checkbox" name="size"> XS
+                    <input type="checkbox" name="size"> S
+                    <input type="checkbox" name="size"> M
+                    <br>
+                    <input type="checkbox" name="size"> L
+                    <input type="checkbox" name="size"> XL
+                    <input type="checkbox" name="size"> XXL </div>
+                <div>
+                    <h3>Price</h3>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> </div> <span class="left">$52</span><span class="right">$1000</span> </div>
+            </div>
+            <div class="sort"> <span>Sort By</span>
+                <select>
+                    <option>Name &#9662;</option>
+                    <option>Title</option>
+                </select> <span>Show</span>
+                <select>
+                    <option>09 &#9662;</option>
+                    <option>10</option>
+                </select>
+            </div>
+            <div class="fetured__content products">
+                <div class="fetured__item"><img src="img/item_preview_1.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="item_description">
+                        <div class="title">Mango People T-shirt</div>
+                        <div class="price">$52.00</div>
+                    </div>
+                </div>
+                <div class="fetured__item"><img src="img/item_preview_2.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
+                </div>
+                <div class="fetured__item"><img src="img/item_preview_3.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
+                </div>
+            </div>
+            <div class="fetured__content products">
+                <div class="fetured__item"><img src="img/item_preview_1.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="item_description">
+                        <div class="title">Mango People T-shirt</div>
+                        <div class="price">$52.00</div>
+                    </div>
+                </div>
+                <div class="fetured__item"><img src="img/item_preview_2.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
+                </div>
+                <div class="fetured__item"><img src="img/item_preview_3.png" alt="">
+                    <div class="overlay">
+                        <div class="buy"> Add to Cart</div>
+                    </div>
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
+                </div>
+            </div>
+            <div class="listing left"> &#10094; <span class="pink">1</span> 2 3 4 5 6....20 <span class="pink">&#10095;</span> </div>
+            <div class=" right">
+                <button class="view_all">View all</button>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <div class="description__content container">
+            <div> <img src="img/Forma_1.png" alt="">
+                <h2>Free Delivery</h2>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div><img src="img/Forma_2.png" alt="">
+                <h2>Sales &amp; discounts</h2>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div><img src="img/Forma_3.png" alt="">
+                <h2>Quality assurance</h2>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="subscribe__content container">
+            <div class="feedback"> <img src="img/feed.png" alt="">
+                <p><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i></p>
+                <h3>Bin Burhan</h3>
+                <p>Dhaka, Bd</p>
+            </div>
+            <div class="news">
+                <h2>SUBSCRIBE</h2>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="#">
+                    <input class="subscribe__mail" type="text" placeholder="Enter Your Email">
+                    <button class="button mail">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="footer__item">
+            <a href="#" class="logo"> <img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo_d">D</span> </a>
+            <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="footer__item">
+            <h3>COMPANY</h3>
+            <ul>
+                <li>Home </li>
+                <li>Shop</li>
+                <li>About</li>
+                <li>How It Works</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer__item">
+            <h3>INFORMATION</h3>
+            <ul>
+                <li>Home </li>
+                <li>Shop</li>
+                <li>About</li>
+                <li>How It Works</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer__item">
+            <h3>SHOP CATEGORY</h3>
+            <ul>
+                <li>Home </li>
+                <li>Shop</li>
+                <li>About</li>
+                <li>How It Works</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="social">
+        <div class="social__content">
+            <div class="copy"> © 2017 Brand All Rights Reserved. </div>
+            <div class="share"> <img src="img/fb.png" alt=""> <img class="img_active" src="img/tw.png" alt=""> <img src="img/pi.png" alt=""> <img class="img_passive" src="img/in.png" alt=""> <img src="img/gp.png" alt=""> </div>
+        </div>
+    </div>
+</body>
+
+</html>
