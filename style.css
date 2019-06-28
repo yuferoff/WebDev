@@ -210,23 +210,6 @@ body {
     position: relative;
 }
 
-.fetured__item .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 280px;
-    width: 260px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000;
-}
-
-.fetured__item:hover .overlay {
-    opacity: 0.8;
-}
-
 .fetured__item .buy {
     color: white;
     font-size: 18px;
@@ -239,6 +222,7 @@ body {
     text-align: center;
     border: 1px solid white;
     padding: 4px;
+    display: none;
 }
 
 .buy::before {
@@ -261,6 +245,14 @@ body {
 
 .fetured__item:hover {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.fetured__item:hover img {
+    filter: brightness(50%);
+}
+
+.fetured__item:hover .buy {
+    display:block;
 }
 
 .form__input {
