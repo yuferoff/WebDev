@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> </head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79a51be3e6.js"></script>
+</head>
 
 <body>
     <header class="header">
@@ -13,18 +15,71 @@
                 <a href="#" class="logo"> <img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo_d">D</span> </a>
                 <form class="header__form" action="#">
                     <div class="form__browse"> Browse </div>
-                    <input type="text" class="form__input" placeholder="Search for Item...">
+                    <input type="text" required class="form__input" placeholder="Search for Item...">
                     <button class="form__search"></button>
                 </form>
             </div>
-            <div class="header__block"> <img class="header__cart" src="img/cart.svg" alt="cart"> <a href="#" class="button account">My Account </a> </div>
+            <div class="header__block">
+                <a href=""><img class="header__cart" src="img/cart.svg" alt="cart"></a> <a href="#" class="button account">My Account </a> </div>
         </div>
     </header>
     <nav>
         <ul class="menu">
             <li><a href="#" class="menu__link">Home</a></li>
-            <li><a href="#" class="menu__link">Man</a></li>
-            <li><a href="#" class="menu__link">Women</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Man</a>
+                <div class="drop drop_mega-menu">
+                    <div class="drop__flex">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop__flex">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                        </ul>
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu__list"><a href="#" class="menu__link">Women</a>
+                <div class="drop drop_mega-menu">
+                    <div class="drop__flex">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop__flex">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                        </ul>
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
             <li><a href="#" class="menu__link">Kids</a></li>
             <li><a href="#" class="menu__link">Accoseriese</a></li>
             <li><a href="#" class="menu__link">Featured</a></li>
@@ -68,65 +123,49 @@
         <h2>Fetured Items</h2>
         <p>Shop for items based on what we featured in this week</p>
         <div class="fetured__content container">
-            <div class="fetured__item"><img src="img/item_preview_1.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
-                </div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
                 <div class="item_description">
                     <div class="title">Mango People T-shirt</div>
                     <div class="price">$52.00</div>
                 </div>
             </div>
-            <div class="fetured__item"><img src="img/item_preview_2.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
+                <div class="item_description">
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
                 </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
             </div>
-            <div class="fetured__item"><img src="img/item_preview_3.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
+                <div class="item_description">
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
                 </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
-            </div>
-            <div class="fetured__item"><img src="img/item_preview_4.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
-                </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
             </div>
         </div>
         <div class="fetured__content container">
-            <div class="fetured__item"><img src="img/item_preview_5.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
+                <div class="item_description">
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
                 </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
             </div>
-            <div class="fetured__item"><img src="img/item_preview_6.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
+                <div class="item_description">
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
                 </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
             </div>
-            <div class="fetured__item"><img src="img/item_preview_7.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
+            <div class="fetured__item">
+                <a href=""><img src="img/item_preview_1.png" alt=""></a> <a href="" class="buy"> Add to Cart</a>
+                <div class="item_description">
+                    <div class="title">Mango People T-shirt</div>
+                    <div class="price">$52.00</div>
                 </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
-            </div>
-            <div class="fetured__item"><img src="img/item_preview_8.png" alt="">
-                <div class="overlay">
-                    <div class="buy"> Add to Cart</div>
-                </div>
-                <div class="title">Mango People T-shirt</div>
-                <div class="price">$52.00</div>
             </div>
         </div>
         <div class="divider"><a href="#" class="button browse">Browse All Product </a></div>
@@ -163,7 +202,7 @@
                 <h2>SUBSCRIBE</h2>
                 <p>FOR OUR NEWLETTER AND PROMOTION</p>
                 <form action="#">
-                    <input class="subscribe__mail" type="text" placeholder="Enter Your Email">
+                    <input class="subscribe__mail" required type="email" placeholder="Enter Your Email">
                     <button class="button mail">Subscribe</button>
                 </form>
             </div>
@@ -177,38 +216,38 @@
         <div class="footer__item">
             <h3>COMPANY</h3>
             <ul>
-                <li>Home </li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>How It Works</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="footer__item">
             <h3>INFORMATION</h3>
             <ul>
-                <li>Home </li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>How It Works</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="footer__item">
             <h3>SHOP CATEGORY</h3>
             <ul>
-                <li>Home </li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>How It Works</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div>
     <div class="social">
         <div class="social__content">
             <div class="copy"> © 2017 Brand All Rights Reserved. </div>
-            <div class="share"> <img src="img/fb.png" alt=""> <img class="img_active" src="img/tw.png" alt=""> <img src="img/pi.png" alt=""> <img class="img_passive" src="img/in.png" alt=""> <img src="img/gp.png" alt=""> </div>
+            <div class="share"> <a href=""><i class="fab fa-facebook-f"></i> </a> <a href=""><i class="fab fa-twitter"></i> </a> <a href=""><i class="fab fa-pinterest-p"></i> </a> <a href=""><i class="fab fa-google-plus-g"></i> </a> <a href=""><i class="fab fa-linkedin-in"></i> </a> </div>
         </div>
     </div>
 </body>
