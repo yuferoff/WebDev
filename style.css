@@ -5,6 +5,11 @@
 
 a {
     text-decoration: none;
+    color: dimgray;
+}
+
+a:hover {
+    color: #f16d7f;
 }
 
 .left {
@@ -252,7 +257,7 @@ body {
 }
 
 .fetured__item:hover .buy {
-    display:block;
+    display: block;
 }
 
 .form__input {
@@ -332,6 +337,11 @@ body {
     align-items: center;
 }
 
+.subscribe p,
+.subscribe h3 {
+    padding: 0 15px 0 15px;
+}
+
 .news,
 .feedback {
     width: 100%;
@@ -349,7 +359,7 @@ body {
     border: none;
     background-color: #e1e1e1;
     font-size: 14px;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
 .news h2,
@@ -417,7 +427,7 @@ form {
     height: 80px;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
 .share img {
@@ -658,4 +668,106 @@ option {
     height: 7px;
     background: #f16d7f;
     cursor: pointer;
+}
+
+.fab {
+    font-size: 24px;
+    color: #cecece;
+    margin: 0 2px 0 2px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.fab:hover {
+    color: #fff;
+    background-color: #f16d7f;
+}
+
+.share {
+    padding: 5px;
+}
+
+.drop {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 12px 20px 20px;
+    border: 1px solid #ececec;
+    position: absolute;
+    top: 46px;
+    display: none;
+}
+
+.drop::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 30px;
+    transform: rotate(45deg);
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+}
+
+.drop__ul {
+    list-style-type: none;
+}
+
+.drop__link {
+    text-decoration: none;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 28px;
+}
+
+.drop__h3 {
+    color: #232323;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    letter-spacing: 0.35px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.drop__flex {
+    width: 235px;
+    margin-right: 46px;
+}
+
+.drop__flex:last-of-type {
+    margin-right: 0;
+}
+
+.drop-mega-menu {
+    display: flex;
+}
+
+.menu__list {
+    position: relative;
+}
+
+.menu__list:hover .drop_mega-menu {
+    display: flex;
+}
+
+.drop_mega-menu {
+    display: none;
+}
+
+.single-product {
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+.single-product__content {
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+    /*margin-top: -80px;*/
 }
